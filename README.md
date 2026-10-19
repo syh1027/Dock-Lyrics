@@ -2,6 +2,8 @@
 
 **Keep lyrics in your Dock.**
 
+Latest public release: **1.5.1**
+
 [English](#english) · [简体中文](#简体中文) · [Download](https://github.com/syh1027/Dock-Lyrics/releases/latest) · [Report an issue](https://github.com/syh1027/Dock-Lyrics/issues)
 
 ## English
@@ -9,6 +11,8 @@
 Dock Lyrics is a lightweight macOS app that displays two lines of synced lyrics over the Dock area. Follow your music while working or browsing, without keeping your music player's lyrics window open.
 
 It uses space already reserved for a visible Dock. Lyrics disappear when playback pauses and step aside when your pointer approaches, so your apps remain easy to reach.
+
+![Dock Lyrics shows synced lyrics while playing and reveals the Dock when paused or approached](assets/01-dock-lyrics-overview.png)
 
 ### Features
 
@@ -25,9 +29,29 @@ It uses space already reserved for a visible Dock. Lyrics disappear when playbac
 - **Light and dark appearance:** the settings and running app icon follow the system appearance. Menu bar icons indicate whether the lyric overlay is active.
 - **In-app updates:** check for updates from the app and install new versions without downloading another installer manually. Automatic checks are available through the updater's preferences and require access to the update service.
 
+### Make it yours
+
+Choose classic or scrolling two-line lyrics. Left and right alignment keep the two lines together in one centered block. The overlay adapts when you change the Dock’s size.
+
+![Classic and scrolling layouts with staggered center, left, and right text alignment](assets/02-layouts-and-alignment.png)
+
+Wallpaper colors, appearance-aware app icons, and two menu bar states help Dock Lyrics fit into your desktop.
+
+![Wallpaper matching, light and dark app icons, and menu bar visibility states](assets/03-desktop-appearance.png)
+
+### Settings that stay simple
+
+Preview lyrics, adjust timing, choose a language, and check for updates from one window. The update button is easy to recognize and fits both English and Chinese labels.
+
+![Dock Lyrics 1.5.1 English settings with live lyric preview and language selection](assets/04-settings-english.png)
+
+Full-size settings screenshots: [Light](assets/settings-en-light.png) · [Dark](assets/settings-en-dark.png).
+
 ### Download and use
 
 [Download the latest release](https://github.com/syh1027/Dock-Lyrics/releases/latest).
+
+Already using 1.4.1 or 1.5.0? Open **Check for Updates…** in the app to upgrade directly to 1.5.1. If automatic checks are enabled, the updater can also notify you when it checks for new versions. Access to the GitHub update service is required.
 
 The universal build includes Apple Silicon and Intel binaries and requires macOS 13 or later. Open the DMG, drag Dock Lyrics into Applications, and launch it from there. Follow the permission prompts, then play a song in a supported player. Enable online lyrics in Settings if you want missing lyrics to be found online.
 
@@ -46,6 +70,8 @@ This repository provides product information and compiled releases. The applicat
 ## 简体中文
 
 **让歌词留在 Dock。**
+
+最新公开版：**1.5.1**
 
 Dock Lyrics 是一款轻量的 macOS 歌词应用，在 Dock 所在的位置显示两行同步歌词。工作、浏览网页时，也能跟上正在播放的音乐，无需一直打开音乐软件的歌词窗口。
 
@@ -66,9 +92,15 @@ Dock Lyrics 是一款轻量的 macOS 歌词应用，在 Dock 所在的位置显�
 - **浅色与深色外观：** 设置页及运行中的应用图标跟随系统明暗切换，菜单栏图标反映歌词栏的显示状态。
 - **应用内更新：** 可直接检查、下载并安装新版本，无需重新手动下载安装包。更新组件提供自动检查选项，需要能够连接更新服务。
 
+上方配图依次展示基本使用、歌词样式与对齐、壁纸及明暗外观，以及英文设置界面。
+
+“检查更新”已改成更容易辨认的按钮；中英文分别按文字长度调整宽度，右边缘保持一致。
+
 ### 下载与使用
 
 [下载最新版本](https://github.com/syh1027/Dock-Lyrics/releases/latest)。
+
+已安装 1.4.1 或 1.5.0 的用户，可在应用中点击“检查更新…”直接升级至 1.5.1。开启自动检查后，更新组件也会在检查到新版本时提示。需要能够连接 GitHub 更新服务。
 
 通用安装包包含 Apple Silicon 与 Intel 二进制程序，要求 macOS 13 或更新版本。打开 DMG，将 Dock Lyrics 拖入 Applications 后，从应用程序文件夹启动。按照提示授予必要权限，再打开支持的播放器播放歌曲。如需在线补充缺失歌词，请在设置中开启“在线歌词”。
 
