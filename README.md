@@ -2,7 +2,7 @@
 
 **Keep lyrics in your Dock. / 让歌词留在 Dock。**
 
-**1.7.0 · Album Glow / 专辑流光**
+**1.8.0 · Glass & Motion / 玻璃与流动**
 
 [English](#english) · [简体中文](#简体中文) · [Download](https://github.com/syh1027/Dock-Lyrics/releases/latest) · [Issues](https://github.com/syh1027/Dock-Lyrics/issues)
 
@@ -10,7 +10,18 @@
 
 Dock Lyrics displays synced lyrics in the space already reserved for your Mac’s Dock. Keep up with a song while working or browsing, without leaving a music player’s lyrics window open.
 
-### New in 1.7.0: Album Glow
+### New in 1.8.0
+
+- Adds background motion with independently moving, softly blended colors.
+- Adds frosted glass and Liquid Glass, with adjustable glass transparency across all seven themes.
+- Adds a Transparent theme that removes theme colors while keeping the selected glass finish.
+- Adds custom lyric colors for Album Glow and Transparent, including a new black preset.
+- Refreshes Settings with two rows of theme previews and clearer spacing.
+- Fixes Apple Music lyric timing/display issues and NetEase Cloud Music synchronization precision.
+
+Liquid Glass requires macOS 26 or later; frosted glass is available on earlier supported systems.
+
+### Album Glow
 
 Let the current album set the mood. **Album Glow** draws colors from the cover and blends them into a soft lyric background. Switching albums transitions directly from one palette to the next, with no flash back to the wallpaper color.
 
@@ -38,15 +49,15 @@ Choose a centered single line, classic two-line lyrics, or scrolling two-line ly
 
 ### Colors that fit your desktop
 
-Choose **Album Glow**, match your wallpaper, or use one of four coordinated themes: **Deep Sea, Pine, Warm Sand, and Twilight**. Settings shows the background colors before you choose.
+Choose **Album Glow**, match your wallpaper, use **Transparent**, or pick one of four coordinated themes: **Deep Sea, Pine, Warm Sand, and Twilight**. Settings shows the background colors before you choose.
 
-With wallpaper matching, choose a preset lyric color or use the native color picker. Your last custom color is saved separately, so switching themes does not lose it. Background opacity is adjustable, and app icons follow the system’s light or dark appearance. The menu bar icon shows whether lyrics are visible.
+Album Glow, Wallpaper, and Transparent support preset lyric colors and the native color picker, including pure white and black. Your last custom color is saved separately. All seven themes work with frosted glass or Liquid Glass and adjustable glass transparency. App icons follow the system’s light or dark appearance; the menu bar icon shows whether lyrics are visible.
 
 ![Album Glow, four fixed themes, light and dark icons, and menu bar states](assets/04-themes-and-appearance-en.png)
 
 ### Settings, without interrupting the music
 
-A resizable Settings window separates **Lyrics, Appearance, and General**. Preview the current lyrics, skip tracks, play or pause, adjust the system Dock size, choose a language, and check for updates.
+A resizable Settings window separates **Appearance, Display, and General**. Preview the current lyrics, skip tracks, play or pause, adjust the system Dock size, choose a language, and check for updates.
 
 The app follows your system language on first launch: Chinese system languages use Simplified Chinese; other languages use English. You can choose either language manually. Song titles and lyrics retain their original language, and Japanese lyrics keep their original characters when Chinese lyrics are simplified.
 
@@ -76,7 +87,19 @@ This repository contains product information and compiled releases. The applicat
 
 Dock Lyrics 利用 Mac 底部 Dock 原本占用的位置显示同步歌词。工作或浏览网页时，也能跟上音乐，无需一直打开播放器的歌词窗口。
 
-### 1.7.0 新增：专辑流光
+### 1.8.0 更新
+
+- 加入背景动效，让色彩自然流动与交融
+- 加入毛玻璃与液态玻璃，七个主题均可搭配并调整玻璃透明度
+- 加入透明主题，去掉主题底色，保留所选玻璃效果
+- 加入专辑流光与透明主题的自定义歌词颜色，新增纯黑色预设
+- 优化设置布局，主题改为两行展示，并调整控件间距
+- 修复部分 Apple Music 歌词显示与时间信息更新问题
+- 修复网易云音乐歌词同步精度问题
+
+液态玻璃需要 macOS 26 或更新版本；较早的受支持系统可使用毛玻璃。
+
+### 专辑流光
 
 **让专辑的颜色流进 Dock。**「专辑流光」从正在播放的专辑封面中提取色彩，形成柔和的歌词背景。切换专辑时，直接从上一张专辑的颜色过渡到下一张，不再闪回壁纸颜色。
 
@@ -104,15 +127,15 @@ Dock Lyrics 利用 Mac 底部 Dock 原本占用的位置显示同步歌词。工
 
 ### 选择适合桌面的颜色
 
-「专辑流光」排在主题选择的第一位，也可以继续跟随壁纸，或选择**深海、松林、暖沙、夜紫**四款固定主题。设置中可直接预览背景颜色。
+第一行提供「专辑流光」「跟随壁纸」「透明」，第二行提供**深海、松林、暖沙、夜紫**四款固定主题。设置中可直接预览背景颜色。
 
-跟随壁纸时，可使用预设歌词颜色或系统调色盘；上一次自定义颜色会单独保存，切换主题后仍能找回。支持调整背景透明度，应用图标随系统浅深外观切换，菜单栏图标显示歌词是否可见。
+专辑流光、跟随壁纸与透明主题均可使用预设歌词颜色或系统调色盘，包含纯白与纯黑。上一次自定义颜色会单独保存。七个主题都能搭配毛玻璃或液态玻璃，并调整玻璃透明度；应用图标随系统浅深外观切换，菜单栏图标显示歌词是否可见。
 
 ![专辑流光、四款固定主题，以及浅深外观和菜单栏状态](assets/04-themes-and-appearance-zh.png)
 
 ### 听歌时，设置也顺手
 
-设置分为**歌词显示、外观、通用**，窗口可调整大小。查看当前歌词，上一首、暂停、下一首，调整系统 Dock 大小，切换语言或检查更新，都可以在这里完成。
+设置分为**外观、显示、通用**，窗口可调整大小。查看当前歌词，上一首、暂停、下一首，调整系统 Dock 大小，切换语言或检查更新，都可以在这里完成。
 
 首次启动默认跟随系统语言：简体或繁体中文系统统一使用简体中文，其他系统语言使用英文，也可手动选择。歌名与歌词保留原文；中文歌词转为简体时，日文歌词保留原有文字。
 
@@ -123,7 +146,7 @@ Dock Lyrics 利用 Mac 底部 Dock 原本占用的位置显示同步歌词。工
 [下载 Dock Lyrics](https://github.com/syh1027/Dock-Lyrics/releases/latest)。
 
 - **要求 macOS 13 或更新版本。** 通用版包含 Apple Silicon 与 Intel 程序；Intel 程序经过 Rosetta 检查，尚未在实体 Intel Mac 上测试。
-- **已安装 1.4.1 或更新版本的用户，**可直接在应用内点击「检查更新…」。开启自动检查后，应用会在启动和运行期间定期检查；发现新版时，设置中的按钮会变为更直观的更新提醒。
+- **已安装 1.4.1 或更新版本的用户**，可直接在应用内点击「检查更新…」。开启自动检查后，应用会在启动和运行期间定期检查；发现新版时，设置中的按钮会变为更直观的更新提醒。
 - 更新文件托管于 GitHub。若检查或下载失败，请在能够连接 GitHub 的网络环境下重试。从其他网站下载安装包，不会改变应用内更新地址。
 
 打开 DMG，将 Dock Lyrics 拖入 Applications，首次运行时按照提示授予权限。可在设置中开启在线歌词，补充缺失的本机歌词。应用通过独立渠道分发，目前尚未获得 Apple 公证；首次运行可能需要在**系统设置 → 隐私与安全性**中允许打开。
