@@ -1,162 +1,149 @@
 # Dock Lyrics
 
-**Keep lyrics in your Dock. / 让歌词留在 Dock。**
+**Keep lyrics in your Dock. · 让歌词留在 Dock。**
 
-**1.8.0 · Glass & Motion / 玻璃与流动**
-
-[English](#english) · [简体中文](#简体中文) · [Download](https://github.com/syh1027/Dock-Lyrics/releases/latest) · [Issues](https://github.com/syh1027/Dock-Lyrics/issues)
+[Download latest release / 下载最新版](https://github.com/syh1027/Dock-Lyrics/releases/latest) · [English](#english) · [简体中文](#简体中文) · [GitHub Issues](https://github.com/syh1027/Dock-Lyrics/issues)
 
 ## English
 
-Dock Lyrics displays synced lyrics in the space already reserved for your Mac’s Dock. Keep up with a song while working or browsing, without leaving a music player’s lyrics window open.
+Dock Lyrics is a macOS app that displays synchronized lyrics in the bottom Dock. Follow the music while you work, read, or browse without keeping a player’s lyrics window open.
 
-### New in 1.8.0
+<p align="center">
+  <a href="assets/posters/en/01-lyrics-in-your-dock.jpg"><img src="assets/posters/en/01-lyrics-in-your-dock.jpg" alt="Dock Lyrics on a MacBook, with always-visible and auto-hidden Dock examples" width="480"></a>
+</p>
 
-- Adds background motion with independently moving, softly blended colors.
-- Adds frosted glass and Liquid Glass, with adjustable glass transparency across all seven themes.
-- Adds a Transparent theme that removes theme colors while keeping the selected glass finish.
-- Adds custom lyric colors for Album Glow and Transparent, including a new black preset.
-- Refreshes Settings with two rows of theme previews and clearer spacing.
-- Fixes Apple Music lyric timing/display issues and NetEase Cloud Music synchronization precision.
+### Players, lyrics, and translation
 
-Liquid Glass requires macOS 26 or later; frosted glass is available on earlier supported systems.
+- Dock Lyrics works with **Apple Music, NetEase Cloud Music, QQ Music, and Spotify**. It supports both the Mac App Store and website editions of NetEase Cloud Music and QQ Music.
+- **Synced lyrics** show the current and upcoming lines as the song plays. When the matched lyrics include word timings, the highlight advances with the words. Confirmed instrumentals have a separate status from tracks with missing lyrics.
+- Dock Lyrics uses available **local lyrics** and can supplement them with **online sources**, including NetEase Cloud Music, QQ Music, KuGou, and LRCLIB. A lyric source can differ from the active player. Enable **Online lyrics** in Settings for online matching, and use **Find Lyrics Again** to retry a match.
+- For **translation**, choose **Original**, **Original + Translation**, or **Translation**. Simplified Chinese translations are shown when available. Original lyrics fill gaps when no translation is available. Optional **System translation** uses Apple’s on-device translation on macOS 15 or later and requires the relevant language packs. Coverage depends on the track, lyric source, and language.
 
-### Album Glow
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/en/08-supported-players.jpg"><img src="assets/posters/en/08-supported-players.jpg" alt="Supported players and quick installation steps" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/en/07-lyrics-and-translation.jpg"><img src="assets/posters/en/07-lyrics-and-translation.jpg" alt="Original lyrics and translation highlight together" width="380"></a></td>
+  </tr>
+</table>
 
-Let the current album set the mood. **Album Glow** draws colors from the cover and blends them into a soft lyric background. Switching albums transitions directly from one palette to the next, with no flash back to the wallpaper color.
+### Dock behavior and controls
 
-The current song comes first: lyric loading and album artwork run independently, while any queue preloading waits behind the song you are listening to.
+The lyric bar appears during playback and steps aside when you pause or approach the Dock. It supports both an always-visible and an automatically hidden **bottom Dock**. With auto-hide on, the bar fades out to let the system Dock open and returns after the Dock closes if lyrics are enabled. The bar adapts to the Dock’s size and follows its display, including external monitors.
 
-![Album Glow with four album covers and the core Dock lyrics experience](assets/01-album-glow-en.png)
+Use the menu bar icon for Settings, lyric visibility, and rematching. Right-click the Dock Lyrics icon in the Dock for those same three actions. Settings also lets you pin a control to the menu bar menu for playback, lyric sync, Dock size, or glass transparency.
 
-### Your Dock stays within reach
+<p align="center">
+  <a href="assets/posters/en/02-dock-behavior.jpg"><img src="assets/posters/en/02-dock-behavior.jpg" alt="Lyrics fade out as the pointer approaches and the system Dock opens" width="480"></a>
+</p>
 
-Lyrics appear while music is playing. Pause, or move the pointer toward the Dock, and the bar steps aside so you can open your apps as usual.
+### Appearance, layout, and Settings
 
-- **Apple Music, NetEase Cloud Music, QQ Music, and Spotify.** NetEase and QQ Music support both Mac App Store and website editions.
-- **Follows your Dock’s size and display.** The lyric bar stays with the visible Dock when it moves between your Mac’s screen and an external display.
-- **Synced lyrics from available sources.** Uses local lyric data and online sources including NetEase Cloud Music, QQ Music, and LRCLIB. Online lookups do not require those players to be installed.
-- **Better first-song handling.** This release improves Apple Music’s local lyric reading, including lyrics stored in its local database, and avoids unnecessary waiting between lyrics and album colors.
-- **Clearer instrumental states.** Confirmed instrumental tracks have a dedicated message; missing lyrics are not automatically treated as instrumental music.
+- Under **Appearance**, choose Album Glow, Match Wallpaper, Transparent, or one of four fixed themes. Album Glow takes its colors from the current cover. Customize the glass transparency, background motion, and supported lyric colors, or choose a different app icon. Liquid Glass requires macOS 26 or later. Frosted glass is available on earlier supported versions.
+- Choose a **layout** with a centered single line, classic two-line lyrics, or scrolling two-line lyrics. Two-line layouts offer staggered center, left, and right alignment. Choose a lyric font, adjust the single-line text size, and set translation alignment separately when showing both languages.
+- **Settings** has three tabs, Appearance, Display, and General. They bring together a live preview, playback controls, lyric sync adjustment, system Dock size, launch at login, and updates. The interface can follow the system language or be set to English or Simplified Chinese.
 
-![Lyrics while playing; the original Dock returns on pause or pointer approach](assets/02-dock-behavior-en.png)
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/en/03-album-glow.jpg"><img src="assets/posters/en/03-album-glow.jpg" alt="Album Glow uses colors from four different album covers" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/en/04-background-motion.jpg"><img src="assets/posters/en/04-background-motion.jpg" alt="The same background palette at three points in time" width="380"></a></td>
+  </tr>
+</table>
 
-### One line or two
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/en/05-appearance-and-icons.jpg"><img src="assets/posters/en/05-appearance-and-icons.jpg" alt="English Appearance settings with a live preview and nine app icons" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/en/06-lyric-layouts.jpg"><img src="assets/posters/en/06-lyric-layouts.jpg" alt="Single-line and two-line layouts with three alignment choices" width="380"></a></td>
+  </tr>
+</table>
 
-Choose a centered single line, classic two-line lyrics, or scrolling two-line lyrics. Two-line layouts support staggered center, left, and right alignment, with the lyric block kept centered over the Dock.
+![English Display settings with lyric styles, alignment, content modes, and the live preview](assets/display-settings-en.jpg)
 
-![Single-line and two-line lyrics with alignment options](assets/03-layouts-en.png)
+### Download and install
 
-### Colors that fit your desktop
+**Requires macOS 13 or later.** The universal build supports Apple Silicon and Intel Macs.
 
-Choose **Album Glow**, match your wallpaper, use **Transparent**, or pick one of four coordinated themes: **Deep Sea, Pine, Warm Sand, and Twilight**. Settings shows the background colors before you choose.
+1. Download the `.dmg` under **Assets** on the [latest GitHub release](https://github.com/syh1027/Dock-Lyrics/releases/latest).
+2. Open the disk image, drag **Dock Lyrics** into **Applications**, and launch it from there.
+3. Follow the first-launch prompts. In **System Settings → Privacy & Security → Accessibility**, allow Dock Lyrics to read the Dock’s position. Keep the system Dock at the bottom of the screen.
+4. Start playing a track in a supported player. Open Dock Lyrics Settings from the menu bar to adjust the display or enable online lyric matching.
 
-Album Glow, Wallpaper, and Transparent support preset lyric colors and the native color picker, including pure white and black. Your last custom color is saved separately. All seven themes work with frosted glass or Liquid Glass and adjustable glass transparency. App icons follow the system’s light or dark appearance; the menu bar icon shows whether lyrics are visible.
-
-![Album Glow, four fixed themes, light and dark icons, and menu bar states](assets/04-themes-and-appearance-en.png)
-
-### Settings, without interrupting the music
-
-A resizable Settings window separates **Appearance, Display, and General**. Preview the current lyrics, skip tracks, play or pause, adjust the system Dock size, choose a language, and check for updates.
-
-The app follows your system language on first launch: Chinese system languages use Simplified Chinese; other languages use English. You can choose either language manually. Song titles and lyrics retain their original language, and Japanese lyrics keep their original characters when Chinese lyrics are simplified.
-
-![Actual English settings with Self Control, playback controls, and theme previews](assets/05-settings-en.png)
-
-### Download and updates
-
-[Download Dock Lyrics](https://github.com/syh1027/Dock-Lyrics/releases/latest).
-
-- **macOS 13 or later.** Universal build for Apple Silicon and Intel. Intel binaries are included and checked under Rosetta, but have not been tested on a physical Intel Mac.
-- **Already using 1.4.1 or later?** Choose **Check for Updates…** in the app. When automatic checks are enabled, the app also checks at launch and periodically while running. If an update is found, the settings action changes to an update reminder.
-- Updates are hosted on GitHub. If a check or download fails, retry on a network that can reach GitHub. An installer downloaded elsewhere uses the same in-app update service.
-
-Open the DMG, drag Dock Lyrics into Applications, and follow the first-launch permission prompts. Enable online lyrics in Settings to supplement missing local lyrics. The independently distributed app is not currently notarized by Apple; macOS may require approval in **System Settings → Privacy & Security** on first launch.
-
-Dock Lyrics is designed for a **visible Dock at the bottom of the screen**. Lyrics depend on track metadata and source availability. Upcoming-song preloading depends on player and queue access; Spotify queue preloading is not supported.
+To update an installed copy, choose **Check for Updates…** in Settings or download the latest DMG.
 
 ### Feedback
 
-Report bugs or suggestions in [Issues](https://github.com/syh1027/Dock-Lyrics/issues), in English or Chinese. Include your macOS version, Dock Lyrics version, player, and steps to reproduce. For lyric matching, include the song title and artist. Please leave out account credentials and personal information.
+Report a bug or suggest an improvement in [GitHub Issues](https://github.com/syh1027/Dock-Lyrics/issues). Include your macOS and Dock Lyrics versions, the player, and steps to reproduce. For lyric issues, add the song title and artist. Please leave out credentials and other private information.
 
-This repository contains product information and compiled releases. The application source code is not public. Dock Lyrics is an independent project and is not affiliated with Apple, NetEase, Tencent, or Spotify.
+Dock Lyrics is independently developed. This repository hosts product information and downloads. Dock Lyrics has no affiliation with Apple, NetEase, Tencent, or Spotify.
 
 ---
 
 ## 简体中文
 
-Dock Lyrics 利用 Mac 底部 Dock 原本占用的位置显示同步歌词。工作或浏览网页时，也能跟上音乐，无需一直打开播放器的歌词窗口。
+Dock Lyrics 是一款在 Mac 底部程序坞显示同步歌词的应用。工作、阅读或浏览网页时，都能跟上音乐，无需一直打开播放器的歌词窗口。
 
-### 1.8.0 更新
+<p align="center">
+  <a href="assets/posters/zh-Hans/01-lyrics-in-your-dock.jpg"><img src="assets/posters/zh-Hans/01-lyrics-in-your-dock.jpg" alt="MacBook 封面和常驻、隐藏两种 Dock 下的歌词示意" width="480"></a>
+</p>
 
-- 加入背景动效，让色彩自然流动与交融
-- 加入毛玻璃与液态玻璃，七个主题均可搭配并调整玻璃透明度
-- 加入透明主题，去掉主题底色，保留所选玻璃效果
-- 加入专辑流光与透明主题的自定义歌词颜色，新增纯黑色预设
-- 优化设置布局，主题改为两行展示，并调整控件间距
-- 修复部分 Apple Music 歌词显示与时间信息更新问题
-- 修复网易云音乐歌词同步精度问题
+### 播放器、歌词与翻译
 
-液态玻璃需要 macOS 26 或更新版本；较早的受支持系统可使用毛玻璃。
+- **支持的播放器**包括 Apple Music、网易云音乐、QQ 音乐和 Spotify。网易云音乐与 QQ 音乐均支持 Mac App Store 版和官网版。
+- **同步歌词**随播放进度显示当前句和下一句。匹配到逐字时间轴时，歌词会随演唱逐字高亮。已确认的纯音乐有独立提示，与未匹配到歌词区分显示。
+- **歌词来源**包括可用的本机歌词，也可从网易云音乐、QQ 音乐、酷狗音乐、LRCLIB 等在线来源补充。歌词来源可以与当前播放器不同。开启设置中的「在线歌词」即可查找在线歌词，也可用「重新匹配歌词」重试。
+- **翻译**支持「原文」「原文＋译文」和「译文」三种模式。有简体中文译文时可显示，缺少译文的行会回退到原文。可选的「系统翻译补全」使用 macOS 15 或更新版本的 Apple 本机翻译，需要安装相应语言包。覆盖范围取决于歌曲版本、歌词来源和语言。
 
-### 专辑流光
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/zh-Hans/08-supported-players.jpg"><img src="assets/posters/zh-Hans/08-supported-players.jpg" alt="四款支持的播放器和安装步骤" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/zh-Hans/07-lyrics-and-translation.jpg"><img src="assets/posters/zh-Hans/07-lyrics-and-translation.jpg" alt="原文和译文跟随演唱进度同步高亮" width="380"></a></td>
+  </tr>
+</table>
 
-**让专辑的颜色流进 Dock。**「专辑流光」从正在播放的专辑封面中提取色彩，形成柔和的歌词背景。切换专辑时，直接从上一张专辑的颜色过渡到下一张，不再闪回壁纸颜色。
+### Dock 交互与操作
 
-优先加载当前歌曲：歌词与专辑封面独立读取，后续歌曲的预加载排在当前歌曲之后。
+播放时显示歌词，暂停或鼠标靠近时自动让位。支持常驻和自动隐藏两种**底部 Dock**。开启自动隐藏时，歌词栏会淡出，让系统 Dock 正常展开。Dock 收起后，若歌词开关已开启，歌词会恢复显示。歌词栏随 Dock 尺寸调整，也会跟随 Dock 移动到外接显示器。
 
-![四张专辑的专辑流光效果，以及 Dock 歌词的基本使用](assets/01-album-glow-zh.png)
+可从菜单栏图标打开设置、显示或隐藏歌词、重新匹配歌词。右键点击系统 Dock 中的 Dock Lyrics 图标也可以进行这三项操作。还可以在设置中选择把播放控制、歌词同步、Dock 大小或玻璃透明度中的一项固定到菜单栏菜单。
 
-### 听歌时出现，要用 Dock 就让位
+<p align="center">
+  <a href="assets/posters/zh-Hans/02-dock-behavior.jpg"><img src="assets/posters/zh-Hans/02-dock-behavior.jpg" alt="鼠标移到屏幕底边时歌词让位，系统 Dock 展开" width="480"></a>
+</p>
 
-音乐播放时显示歌词；暂停或鼠标靠近 Dock 时，歌词自动隐藏，照常打开应用。
+### 外观、布局与设置
 
-- **支持 Apple Music、网易云音乐、QQ 音乐和 Spotify。** 网易云音乐与 QQ 音乐同时支持 Mac App Store 版和官网版。
-- **跟随 Dock 尺寸与所在屏幕。** Dock 在 Mac 屏幕与外接显示器之间移动时，歌词栏随之跟随。
-- **自动补充同步歌词。** 使用可用的本机歌词，以及网易云音乐、QQ 音乐、LRCLIB 等在线来源；在线查词无需安装对应播放器。
-- **改善第一首歌的加载。** 本次改进 Apple Music 本机歌词读取，补充数据库中存储的歌词数据，减少歌词与专辑背景之间不必要的等待。
-- **更清楚的纯音乐提示。** 已确认的纯音乐显示专门提示；没有查到歌词，不会直接判定为纯音乐。
+- **外观**可选专辑流光、跟随壁纸、透明或四种固定主题。专辑流光取色自当前封面。可调整玻璃透明度和背景动效，在支持的主题中自定义歌词颜色，也可以更换应用图标。液态玻璃需要 macOS 26 或更新版本，较早的受支持系统可使用毛玻璃。
+- **布局**支持居中单行、经典双行和滚动双行。双行可选错落居中、左对齐或右对齐。可以更换歌词字体、调整单行字号，也可以在显示双语时单独设置译文对齐方式。
+- **设置**分为外观、显示和通用，提供实时预览、播放控制、歌词同步微调、系统 Dock 大小、开机启动及更新检查。界面可跟随系统，也可手动选用英文或简体中文。
 
-![播放时显示歌词，暂停或鼠标靠近时恢复原本的 Dock](assets/02-dock-behavior-zh.png)
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/zh-Hans/03-album-glow.jpg"><img src="assets/posters/zh-Hans/03-album-glow.jpg" alt="四张专辑封面和对应的专辑流光配色" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/zh-Hans/04-background-motion.jpg"><img src="assets/posters/zh-Hans/04-background-motion.jpg" alt="背景动效在三个时刻的配色变化" width="380"></a></td>
+  </tr>
+</table>
 
-### 一行或两行，都在刚好的位置
+<table>
+  <tr>
+    <td width="50%"><a href="assets/posters/zh-Hans/05-appearance-and-icons.jpg"><img src="assets/posters/zh-Hans/05-appearance-and-icons.jpg" alt="简体中文外观设置、实时预览和九款应用图标" width="380"></a></td>
+    <td width="50%"><a href="assets/posters/zh-Hans/06-lyric-layouts.jpg"><img src="assets/posters/zh-Hans/06-lyric-layouts.jpg" alt="单行、双行歌词和三种对齐方式" width="380"></a></td>
+  </tr>
+</table>
 
-支持居中的单行、经典双行与滚动双行。双行可以选择错落居中、左对齐或右对齐，歌词整体保持在 Dock 中央。
+![简体中文显示设置，包含歌词样式、对齐方式、内容模式和实时预览](assets/display-settings-zh-hans.jpg)
 
-![单行、双行与对齐方式](assets/03-layouts-zh.png)
+### 下载与安装
 
-### 选择适合桌面的颜色
+**需要 macOS 13 或更新版本。** 通用版本支持 Apple 芯片和 Intel 芯片的 Mac。
 
-第一行提供「专辑流光」「跟随壁纸」「透明」，第二行提供**深海、松林、暖沙、夜紫**四款固定主题。设置中可直接预览背景颜色。
+1. 打开 [GitHub 最新正式发布](https://github.com/syh1027/Dock-Lyrics/releases/latest)，从 **Assets** 下载 `.dmg`。
+2. 打开磁盘映像，将 **Dock Lyrics** 拖入「应用程序」，再从该目录打开应用。
+3. 按首次启动提示操作。在「系统设置 → 隐私与安全性 → 辅助功能」中授权 Dock Lyrics，以便读取 Dock 位置。请将系统 Dock 放在屏幕底部。
+4. 在支持的播放器中开始播放。通过菜单栏打开 Dock Lyrics 设置，即可调整显示或开启在线歌词匹配。
 
-专辑流光、跟随壁纸与透明主题均可使用预设歌词颜色或系统调色盘，包含纯白与纯黑。上一次自定义颜色会单独保存。七个主题都能搭配毛玻璃或液态玻璃，并调整玻璃透明度；应用图标随系统浅深外观切换，菜单栏图标显示歌词是否可见。
-
-![专辑流光、四款固定主题，以及浅深外观和菜单栏状态](assets/04-themes-and-appearance-zh.png)
-
-### 听歌时，设置也顺手
-
-设置分为**外观、显示、通用**，窗口可调整大小。查看当前歌词，上一首、暂停、下一首，调整系统 Dock 大小，切换语言或检查更新，都可以在这里完成。
-
-首次启动默认跟随系统语言：简体或繁体中文系统统一使用简体中文，其他系统语言使用英文，也可手动选择。歌名与歌词保留原文；中文歌词转为简体时，日文歌词保留原有文字。
-
-![实际中文设置界面，包含 Self Control 播放示意、播放控制与主题预览](assets/05-settings-zh.png)
-
-### 下载与更新
-
-[下载 Dock Lyrics](https://github.com/syh1027/Dock-Lyrics/releases/latest)。
-
-- **要求 macOS 13 或更新版本。** 通用版包含 Apple Silicon 与 Intel 程序；Intel 程序经过 Rosetta 检查，尚未在实体 Intel Mac 上测试。
-- **已安装 1.4.1 或更新版本的用户**，可直接在应用内点击「检查更新…」。开启自动检查后，应用会在启动和运行期间定期检查；发现新版时，设置中的按钮会变为更直观的更新提醒。
-- 更新文件托管于 GitHub。若检查或下载失败，请在能够连接 GitHub 的网络环境下重试。从其他网站下载安装包，不会改变应用内更新地址。
-
-打开 DMG，将 Dock Lyrics 拖入 Applications，首次运行时按照提示授予权限。可在设置中开启在线歌词，补充缺失的本机歌词。应用通过独立渠道分发，目前尚未获得 Apple 公证；首次运行可能需要在**系统设置 → 隐私与安全性**中允许打开。
-
-目前主要面向**屏幕底部、保持显示的 Dock**。歌词取决于曲目信息与来源；下一首预加载取决于播放器和队列访问条件，目前不支持 Spotify 队列预加载。
+已安装的用户可以在设置中选择「检查更新…」，也可以下载最新的 DMG。
 
 ### 反馈
 
-通过 [Issues](https://github.com/syh1027/Dock-Lyrics/issues) 提交问题或建议，中英文均可。请附上 macOS 版本、Dock Lyrics 版本、播放器与复现步骤；歌词匹配问题请补充歌名及歌手。请勿附上个人信息或账号凭证。
+欢迎在 [GitHub Issues](https://github.com/syh1027/Dock-Lyrics/issues) 提交问题或建议。请附上 macOS 和 Dock Lyrics 版本、播放器及复现步骤。歌词问题还请提供歌名和歌手，提交时请勿附带账号凭据或其他个人信息。
 
-此仓库提供产品介绍与编译后的安装包，应用源码暂不公开。Dock Lyrics 是独立项目，与 Apple、网易、腾讯及 Spotify 没有隶属关系。
-
-© 2026 SYH
+Dock Lyrics 由独立开发者制作。此仓库提供产品介绍和版本下载。Dock Lyrics 与 Apple、网易、腾讯及 Spotify 无隶属关系。
